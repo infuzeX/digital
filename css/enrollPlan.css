@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #FCFCFC;
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+
+}
+.top{
+    
+}
+.select{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 90px;
+    
+}
+.option{
+  
+   
+}
+.heading{
+    font-size: 40px;
+    font-weight: 700;
+    color: rgb(60,72,82);
+}
+.price{
+    font-size: 35px;
+    font-weight: 700;
+    color: #FFB100;
+}
+.field{
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+form input{
+    font-size: 26px;
+    margin-top: 15px;
+    color: #FFB100;
+    border: none;
+  border-bottom: 1px solid black;
+ 
+}
+
+.required{
+    margin-top: 60px;
+    background-color:#FFFFFF ;
+    padding: 50px;
+    border-radius: 30px;
+    border: 0.8px solid #FFB100;
+    box-shadow: 0px 16px 32px 0px rgba(221, 230, 237, 0.4);
+}
+
+
+.high{
+    width: 600px;
+  
+
+}
+.coupon{
+    display: flex;
+     
+    margin-top: 7%;
+    background-color:#FFFFFF ;
+   
+    justify-content: space-evenly;
+    padding: 30px;
+    margin-top: 80px;
+    border: 1px solid #ffb30028;
+    border-radius: 20px;
+    flex-wrap: wrap;
+}
+.pay{
+
+    border: none;
+ 
+    font-size: 20px;
+    font-weight: bold;
+
+    
+    cursor: pointer;
+    border-radius: 4px;
+    width: 200px;
+    height: 58px;
+    min-height: 48px;
+    color: rgb(255, 255, 255);
+    -webkit-user-drag: none;
+    user-select: none;
+    background-color: #FFB100;
+    transition: box-shadow 200ms ease-in-out 0s, transform 200ms ease-in-out 0s;
+}
+.pay:hover{
+    background-color: black;
+}
+.coupon input{
+    font-size: 20px;
+    padding: 10px;
+    
+    border: 1px solid #F0F4F7;
+}
+
+/****************************************************************************************************/
+@media   (min-width: 700px) and (max-width: 1025px) {
+    .select{
+        width: 500px;
+        margin: 0 auto;
+        padding-top: 90px;
+    }
+    .pic{
+        display: none;
+    }
+   
+   }
+@media only screen and (max-width: 500px) {
+
+   .select{
+       width:350px;
+       margin-left: 20px;
+       margin-right: 20px;
+       padding-top: 5px;
+   }
+   .option{
+       width: 380px;
+   }
+   form input{
+    font-size: 18px;
+}
+.field{
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 8px;
+}
+.heading{
+    font-size: 30px;
+   
+}
+.price{
+    font-size: 25px;
+
+}
+   .pic{
+       display: none;
+   }
+   .high{
+  
+    width: 400px;
+}
+.coupon{
+    justify-content: center;
+}
+.pay{
+    width: 100vw;
+    height: 48px;
+    
+}
+.buy{
+margin-top: 10px;
+}
+  }
+ 

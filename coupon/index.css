@@ -1,0 +1,151 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(252,252,252);
+}
+.header{
+    background-color: rgb(255,177,0);
+   padding: 10px;
+}
+.logo{
+    text-align: center;
+}
+.logo p{
+    font-size: 25px;
+}
+
+.top h3{
+    text-align: center;
+    padding: 20px;
+}
+.coupon{
+    width: 500px;
+    margin: 0 auto;
+    background-color: #fff;
+    border: 1px solid rgb(255,177,0);
+    padding: 30px;
+}
+.main{
+    margin: 20px;
+    padding: 5px;
+}
+.main p{
+    font-size: 18px;
+    font-weight: 600;
+    padding: 5px;
+}
+.main input{
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+  
+    border: none;
+ 
+
+   background-color:  #F4F4F4;
+   border-radius: 20px;
+   box-shadow: inset 0 0 0 0 transparent;
+    transition: box-shadow .25s ease;
+}
+.main input:hover{
+   border: none;
+}
+.main input::selection{
+    border: none;
+}
+.main label{
+    font-size: 20px;
+}
+.main select{
+    background-color: rgb(19,25,33);
+    font-size:18px;
+    width: 100%;
+    padding: 5px;
+    color: #fff;
+}
+select option{
+    background-color: rgb(19,25,33);
+    font-size: 20px;
+}
+.submit {
+  text-align: center;
+
+}
+.submit button{
+    letter-spacing: 0.8px;
+    width: 100%;
+    padding: 14px;
+    background-color: rgb(19,25,33);
+    border: none;
+    color: #fff;
+
+
+}
+button:hover{
+   
+    color: #FFB100;
+}
+/*coupon popup*/
+.backdrop{
+    display: none;
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height:100%;
+    background-color: rgba(128, 128, 128, 0.178);
+    z-index:1;
+}
+.open-popup {
+    display: block;
+}
+.backdrop > .popup {
+    width:80%;
+    padding:5%;
+    max-width:300px;
+    margin:200px auto;
+    background-color: #FFB100;
+}
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+.flex > span {
+    margin: auto 0;
+    color: grey;
+    font-size:0.9rem;
+}
+.backdrop > .popup > #data {
+    margin-top:5%;
+}
+.backdrop > .popup > #data > label {
+    font-size:1rem;
+    display: block;
+    margin:0;
+    color: #333
+}
+.backdrop > .popup > #data > .text {
+    width:100%;
+    padding:5%;
+    margin:10px 0;
+    background-color: #333;
+    color: #fff;
+    border-radius:5px;
+}
+/***************************************************************************************************/
+@media only screen and (min-width: 500px) {
+    .backdrop > .popup {
+        padding:30px !important;
+        max-width:300px;
+        margin:200px auto;
+   }
+}
+@media only screen and (max-width: 500px) {
+   .coupon{
+       width: 300px;
+   }
+  }

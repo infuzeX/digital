@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>PADHHIGH</title>
+	<meta charset="UTF-8">
+    <meta property="og:image" content="demo.png">
+    <meta property="og:image" content="https://padhhigh.com/demo/unlock.html/demo.png">
+    <meta property="og:url" content="https://padhhigh.com/demo/unlock.html">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--===============================================================================================-->
+	<link rel="icon" type="image/png" href="favicon.png" />
+	<link rel="stylesheet" type="text/css" href="demo-assests/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="demo-assests/css/util.css">
+	<link rel="stylesheet" type="text/css" href="demo-assests/css/main.css">
+	<link rel="stylesheet" href="/higher/css/otp.css"> 
+	<!--===============================================================================================-->
+
+	<!-- Bootstrap CSS -->
+
+
+	<!-- Favicon -->
+	<link rel="icon" type="image/png" href="favicon.png">
+	<!-- Title -->
+	<title>पढ़HIGH </title>
+	<script src="https://www.gstatic.com/firebasejs/7.21.1/firebase-app.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/7.21.1/firebase-auth.js"></script>
+
+</head>
+
+<body>
+
+	<div class="backdrop1">
+
+		<div class="popup">
+			<span>OTP SENT TO YOUR NUMBER</span>
+			<form id="otpform">
+				<input placeholder="Enter 6 Digit OTP" name="otp" type="number" class="otp">
+				<div id="otp">
+					<span style="visibility:hidden;">testing testing</span>
+				</div>
+				<button>VERIFY</button>
+			</form>
+		</div>
+
+	</div>
+    <div id="recaptcha"></div>
+	<div class="container-contact100">
+
+		<div class="wrap-contact100">
+          
+			<form class="contact">
+              
+              <div id="notify"></div>
+				<span class="contact100-form-title">
+					<div class="top"></div>
+					<img src="demo-assests/logo.png">
+				</span>
+                
+				<div class="wrap-input100 validate-input" data-validate="Name is required">
+					<span class="label-input100 "> Your Name</span>
+					<input class="input100" type="text" name="name" placeholder="Your  name" aria-required="true" aria-invalid="false" required>
+					<span class="focus-input100"></span>
+				</div>
+
+
+				<div class="wrap-input100 validate-input" data-validate="Name is required">
+					<span class="label-input100">Contact Details</span>
+					<input class="input100" type="tel" name="contact" id="contactdetails"
+					placeholder="Phone number" aria-invalid="false" aria-required="true" aria-invalid="false" required/>
+					<span class="focus-input100"></span>
+				</div>
+				<div class="wrap-input100 validate-input" data-validate="Name is required">
+					<span class="label-input100"> College Name</span>
+					<input class="input100" type="text" name="college" Placeholder="College Name" 
+					aria-required="true" aria-invalid="false" required>
+					<span class="focus-input100"></span>
+				</div>
+
+				<div class="wrap-input100 validate-input" data-validate="Name is required">
+					<span class="label-input100"> Who Told you about Inturn?</span>
+					<input class="input100" type="text" name="who" Placeholder="Who Told you about Inturn?" class="form-control text"
+					aria-required="true" aria-invalid="false" required>
+					<span class="focus-input100"></span>
+				</div>
+
+				
+					<div class="alert-box"></div>
+				<div class="container-contact100-form-btn">
+					<div class="wrap-contact100-form-btn">
+						<div class="contact100-form-bgbtn"></div>
+						<button class="contact100-form-btn button">
+							<span>
+								
+								 Proceed
+							</span>
+						</button>
+					</div>
+				</div><br>
+				
+			</form>
+			
+		</div>
+		
+	</div>
+
+
+
+	<div id="dropDownSelect1"></div>
+
+	
+
+</body>
+
+
+<script defer src="/higher/main_js/otp.js"></script>
+<script defer src="/higher/main_js/downloadpdf.js"></script>
+
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Padhhigh</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <div class="logo">
+                <p>Padhhigh.com | Coupon Panel</p>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="menubar">
+            <div class="top">
+                <h3>Generate Coupon For Higher Student</h3>
+            </div>
+
+            <div class="coupon">
+                  <p class="status"></p>
+                <form id="form">
+                    <div class="main">
+                        <p>Name</p>
+                        <input name="name" type="text">
+                    </div>
+                    <div class="main">
+                        <p>Email</p>
+                        <input name="email" type="email">
+                    </div>
+                    <div class="main">
+                        <p>Number</p>
+                        <input name="contact" type="number">
+                    </div>
+                    <div class="main">
+                        <p>HR Name</p>
+                        <input name="hrname" type="name">
+                    </div>
+                    <!-- Not for now
+                    <div class="main">
+                        <p for="course">Choose a Course:</p>
+                        <select name="course" id="course">
+                            <option value="inturn">Inturn Mystery</option>
+                            <option value="skill">Skill Boom</option>
+                            <option value="aspire">Aspire Boost</option>
+                        </select>
+                    </div> -->
+
+                    <div class="submit">
+                        <a> <button>Generate Coupon</button></a>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </main>
+ <!--popup-->
+ <div class="backdrop">
+    <div class="popup">
+        <div class="head flex">
+            <h3 style="color: white;">coupon</h3>
+            <span onclick="togglePopup()">&#10060;</span>
+        </div>
+        <div id="data">
+            <div class="text flex">
+                <p></p>
+                <span onclick="copyCoupon()">Copy</span>
+            </div>
+            <label>Here is your Coupon</label>
+        </div>
+    </div>
+</div>
+<!--popup-->
+</body>
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script defer src="index.js"></script>
+</html>
