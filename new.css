@@ -1,0 +1,22 @@
+.who{
+ text-align: center;
+ width: 100%;
+ margin:  0 auto;
+ padding: 25px;
+ background-color: #121212;
+
+}
+.do{
+display: flex;
+justify-content: space-around;
+}
+#bb{
+    width: 350px;
+}
+#bb h2{
+    color: white;
+}
+#bb h5{
+    letter-spacing: 0.5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
