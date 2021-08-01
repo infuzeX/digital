@@ -23,7 +23,20 @@ justify-content: space-around;
 
 /*********************************************************************/
 
-
+@media screen and (max-width: 600px){
+	.do{
+        flex-direction: column;
+        /* width: 80%; */
+        margin-right: 10px;
+    }
+    #bb {
+        width: 322px;
+    }
+    .title-box.text-center {
+        margin-bottom: 29px;
+        margin-top: 62px;
+    }
+}
 
 .feature-number:hover{
     color: gray;
