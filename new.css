@@ -23,3 +23,26 @@ justify-content: space-around;
 
 /*********************************************************************/
 
+
+
+.feature-number:hover{
+    color: gray;
+}
+.bloom {
+    animation: move 2s infinite;
+}
+
+@keyframes move {
+    0% {
+        transform: scale(0.99);
+        box-shadow: 0 0 0 0px rgb(124, 129, 122);
+    }
+    50% {
+        transform: scale(1);
+        box-shadow: 0 0 0 20px rgb(0 0 0 / 0%);
+    }
+    100% {
+        transform: scale(0.99);
+        box-shadow: 0 0 0 20px rgb(0 0 0 / 0%);
+    }
+}
