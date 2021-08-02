@@ -60,27 +60,48 @@ justify-content: space-around;
     }
 }
 
+.container-fluid1{
+   
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* fundamental part */
 
 .rect-top {
     display: inline-block;
-    background: #FECF3B;
-    width: 396px;
+    background: #FFB100;
+    padding-right: 20px;
     height: 76px;
     font-size: 2rem;
     border-radius: 68px;
     color: black;
     font-weight: 600;
-    margin-bottom: 100px;
+    margin-bottom: 10px;
 }
 .eclipse-top {
     margin: 14px 0px 0px 12px;
     display: inline-block;
-    width: 53px;
+    width: 48px;
     height: 44px;
     /* border: 1px solid black; */
     border-radius: 50%;
-    background: #E5E5E5;
+    background: #ffff;
     
 }
 #bold {
@@ -94,15 +115,35 @@ justify-content: space-around;
 .rect-box {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    flex-wrap: wrap;
+    
+    
+   
     margin-bottom: 100px;
 }
+@media only screen and (max-width: 450px) {
+    .rect-box {
+        display: flex;
+        flex-direction: row;
+        
+        
+        flex-wrap: wrap; 
+        margin-bottom: 100px;
+    }
+  }
+  
+#rect-box{
+     justify-content: space-around;
+    flex-wrap: wrap;
+}
+#cc{
+    /* color: #FFB100; */
+}
 .rect {
-    background: #FECF3B;
-    width: 191px;
-    height: 771px;
-    margin-top: 145px;
+    background: #FFB100;
+    width: 274.91px;
+
+    
+    margin-top: 55px;
     padding: 19px;
 }
 .rect h4 {
@@ -110,17 +151,22 @@ justify-content: space-around;
     margin: 18px 0px 0px -4px;
     text-align: center;
     color: black;
+    height: 80px;
+    margin-bottom: 10px;
 }
 .num {
     margin: 50px 14px;
-    font-size: 70px;
+    font-size: 60px;
     width: 120px;
     text-align: center;
     height: 120px;
-    border: 5px dashed black;
-    border-radius: 50%;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 100%;
     padding: 0px 0px;
     color: black;
+    border:  3px dotted black;
+    margin-bottom: 20px;
 }
 /* .rect h1 {
     margin: 58px 70px;
@@ -129,14 +175,15 @@ justify-content: space-around;
 .rect p{
     text-align: center;
     font-size: 14px;
-    font-weight: 600;
+    font-weight: 700;
     color: black;
+    text-align: justify;
 }
 
 .rect .eclipse-right-yellow1 , .eclipse-left-yellow1 {
     width: 64px;
     height: 67px;
-    background-color: #FECF3B;
+    background-color: #FFB100;
     position: relative;
     top: 0px;
     left: 95%;
@@ -178,7 +225,7 @@ justify-content: space-around;
     height: inherit;
 }
 .white {
-    background: #E5E5E5;
+    background: #ffff;
 }
 
 /* section 16 */
@@ -186,8 +233,9 @@ justify-content: space-around;
 #bol {
     position: relative;
     top: -8px;
-    left: 14px;
+    left: 12px;
     color: white;
+    padding-right: 20px;
 }
 .bggrad {
     background: linear-gradient(92.22deg, #088FFF 8.35%, #0587FF 92.86%);
@@ -203,6 +251,7 @@ justify-content: space-around;
 }
 .component p{
     font-size: 1.2rem;
+    text-align: justify;
 }
 #icon {
     position: relative;
@@ -243,4 +292,9 @@ justify-content: space-around;
     .eclipse-left-yellow1{
         display: none;
     }
+}
+/***********************************************/
+.gh p{
+    text-align: justify;
+    
 }
