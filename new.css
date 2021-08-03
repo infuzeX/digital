@@ -254,7 +254,7 @@ justify-content: space-around;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-evenly;
-    margin: auto;
+    margin-left: -57px;
 }
 .one {
     width: 29%;
@@ -336,6 +336,9 @@ justify-content: space-around;
         width: 92%;
         height: 70vh;
         margin-left: -51px;
+    }
+    #Hosting-box{
+        margin: auto;
     }
 }
 
