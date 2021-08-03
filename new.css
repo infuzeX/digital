@@ -20,7 +20,12 @@ justify-content: space-around;
     letter-spacing: 0.5px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
+#group16{
+    background: #70e1f5;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #ffd194, #70e1f5);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #ffd194, #70e1f5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
 /*********************************************************************/
 
 @media screen and (max-width: 600px){
@@ -136,7 +141,12 @@ justify-content: space-around;
     flex-wrap: wrap;
 }
 #cc{
-    /* color: #FFB100; */
+    color: #ffff;
+}
+#gh p{
+    color: black;
+    font-weight: 700;
+   
 }
 .rect {
     background: #FFB100;
@@ -296,5 +306,26 @@ justify-content: space-around;
 /***********************************************/
 .gh p{
     text-align: justify;
+    
+}
+.problem{
+    padding: 30px;
+    text-align: center;
+
+    background-color: #F5F5F7;
+}
+.problem .p1{
+    font-size: 35px;
+    color: black;
+    font-weight: 700;
+    background-color: yellow;
+    display: inline-block;
+    padding: 5px;
+    border-radius: 10px;
+}
+.problem .i1{
+    font-size: 20px;
+    color: black;
+    font-weight: 700;
     
 }
