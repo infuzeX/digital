@@ -8,7 +8,8 @@
 }
 .do{
 display: flex;
-justify-content: space-around;
+justify-content: space-evenly;
+flex-wrap: wrap;
 }
 #bb{
     width: 350px;
@@ -36,6 +37,7 @@ justify-content: space-around;
     }
     #bb {
         width: 322px;
+        margin: 10px;
     }
     .title-box.text-center {
         margin-bottom: 29px;
