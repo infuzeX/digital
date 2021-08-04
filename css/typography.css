@@ -127,9 +127,9 @@ input:hover, input.form-control:hover, input:focus, input.form-control:focus, te
 /*---------------------------------------------------------------------
 Section Title
 -----------------------------------------------------------------------*/
-.title-box {margin-bottom: 5px;}
+.title-box {margin-bottom: 5px; }
 .title-box span {font-family: oswald,sans-serif;font-size: 23px; font-weight: 600;letter-spacing: 1px;color: #24262b;display: inline-block;}
-.title-box .title  {margin-bottom: 15px; display: block; width: auto;}
+.title-box .title  {margin-bottom: 15px; display: block; width: auto; }
 .title-box.text-left { margin-bottom: 30px; }
 
 /* Title Box Text White*/
