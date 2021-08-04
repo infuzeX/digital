@@ -46,3 +46,46 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 500;
 }
+
+
+/* further optimisation */
+
+.title-box .title{
+    margin-top: -93px; 
+    padding-bottom: 96px; 
+    font-size: 2.7rem;
+}
+
+.title-box {
+    text-align: center;
+}
+.title-box p{
+    text-align: left;
+    font-size: 1.4rem;
+    margin-top: 60px;
+}
+#indepth{
+    font-size: 72px;
+}
+.component {
+    height: 302px;
+    line-height: 1.8;
+
+}
+.rect-box {
+    padding-bottom: 70px;
+    justify-content: space-evenly;
+}
+.one p{
+    font-weight: 600;
+}
+#cc {
+    background: linear-gradient(92.22deg, #088FFF 8.35%, #0587FF 92.86%);
+    
+    padding: 0px 14px;
+    display: inline-block;
+    border-radius: 20px;
+}
+.inst {
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+}
