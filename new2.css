@@ -89,3 +89,32 @@
 .inst {
     background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
 }
+
+.rect-top{
+    margin-left: 0px;
+    margin-bottom: 88px;
+}
+@media screen and (max-width: 768px) {
+    .rect-top{
+        width: 100%;
+    }
+    .component {
+        width: 76.3vw;
+        height: 250px;
+    }
+    #cc {
+        font-size: 1.5rem;
+    }
+    #gh p {
+        font-size: 0.8rem;
+    }
+    #Hosting-box{
+        display: block;
+        width: 306%;
+        padding-top: 30px;
+    }
+    
+    .two{
+        padding-top: 20px;
+    }
+}
