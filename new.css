@@ -122,7 +122,7 @@ flex-wrap: wrap;
 .rect-box {
     display: flex;
     flex-direction: row;
-    
+    gap: 5px;
     
    
     margin-bottom: 100px;
@@ -144,6 +144,7 @@ flex-wrap: wrap;
 }
 #cc{
     color: #ffff;
+    width: 100%;
 }
 #gh p{
     color: black;
@@ -247,7 +248,7 @@ flex-wrap: wrap;
     top: -8px;
     left: 12px;
     color: white;
-    padding-right: 20px;
+   
 }
 .bggrad {
     background: linear-gradient(92.22deg, #088FFF 8.35%, #0587FF 92.86%);
@@ -330,4 +331,7 @@ flex-wrap: wrap;
     color: black;
     font-weight: 700;
     
+}
+#hh{
+    font-weight: 700;
 }
