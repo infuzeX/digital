@@ -94,7 +94,7 @@ flex-wrap: wrap;
     display: inline-block;
     background: #FFB100;
     padding-right: 20px;
-    height: 76px;
+    /* height: 76px; */
     font-size: 2rem;
     border-radius: 68px;
     color: black;
@@ -281,6 +281,9 @@ flex-wrap: wrap;
     .rect-top {
         width: 357px;
         margin-bottom: 68px;
+        text-align: center;
+        line-height: 1.5;
+        /* text-align: left; */
     }
     .rect{
         margin: 0px 0px;
