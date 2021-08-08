@@ -95,7 +95,7 @@
     text-align: center;
 }
 .title-box p{
-    text-align: justify;
+    text-align: center;
     font-size: 1.4rem;
     /* margin-top: 60px; */
 }
@@ -135,6 +135,16 @@
 .mg{
     margin: 60px 0px 100px;
 }
+/* 8/8/2021 */
+#download{
+    color: white !important;
+    /* background: linear-gradient(to bottom, #8e2de2, #4a00e0); */
+    background: linear-gradient(to bottom, #2a133d, #3901ac);
+    padding: 50px;
+}
+#cc{
+    margin-bottom: 1rem;
+}
 
 @media screen and (max-width: 770px) {
     .rect-top{
@@ -146,6 +156,7 @@
     }
     #cc {
         font-size: 1.5rem;
+        margin-bottom: 1rem;
     }
     #gh p {
         font-size: 0.8rem;
@@ -176,6 +187,7 @@
     }
 
 }
+
 @media screen and (max-width: 400px) {
     
     #Hosting-box{
@@ -188,5 +200,19 @@
         
     
     }
-   
+    #download{
+        padding: 0px 11px;
+    }
+    #download p{
+        font-size: 1.1rem;
+    }
+    #indepth{
+        margin: 27px 0px;
+    }
+    .iq-pricing-table {
+        margin-top: 10px;
+        margin-bottom: 90px;
+    }
+
+
 }
