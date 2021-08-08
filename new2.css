@@ -139,7 +139,8 @@
 #download{
     color: white !important;
     /* background: linear-gradient(to bottom, #8e2de2, #4a00e0); */
-    background: linear-gradient(to bottom, #2a133d, #3901ac);
+    /* background: linear-gradient(to bottom, #121212, #FFB100); */
+    background: linear-gradient(0deg, rgba(255,177,0,1) 0%, rgba(18,18,18,1) 59%);
     padding: 50px;
 }
 #cc{
