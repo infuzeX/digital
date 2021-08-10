@@ -178,9 +178,13 @@ background-size: cover;
     flex-direction: row;
     flex-basis: 50%;
 }
-#layout{
+/* #layout{
     width: 154px !important;
-}
+    margin-left: 20px;
+} */
+/* .wid-157{
+    width: 157px !important;
+} */
 
 
 @media screen and (max-width: 770px) {
