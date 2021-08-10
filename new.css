@@ -254,8 +254,9 @@ flex-wrap: wrap;
     background: linear-gradient(92.22deg, #088FFF 8.35%, #0587FF 92.86%);
 }
 .component {
-    width: 33.3vw;
-    height: 256px;
+    /* width: 33.3vw; */
+    flex-basis: 39%;
+    /* height: 256px; */
     display: flex;
 }
 .component h3 {
@@ -295,8 +296,9 @@ flex-wrap: wrap;
         display: none;
     }
     .component {
-        width: 76.3vw;
-        height: 265px;
+        /* width: 76.3vw;
+        height: 265px; */
+        flex-basis: 77%;
     }
     .component p{
         font-size: 1.1rem;
