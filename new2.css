@@ -103,7 +103,7 @@
     font-size: 72px;
 }
 .component {
-    height: 302px;
+    /* height: 302px; */
     line-height: 1.8;
 
 }
@@ -150,6 +150,39 @@ background-size: cover;
     margin-bottom: 1rem;
 }
 
+#bkl {
+    color: #fff;
+    font-size: 58px;
+    text-transform: uppercase;
+    font-weight: 700;
+    /* font-family: "Josefin Sans", sans-serif; */
+    background: linear-gradient(to right, rgb(0, 0, 0) 10%, white 50%, rgb(8, 6, 0) 60%);
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 1.5s linear infinite;
+    display: inline-block;
+}
+#digimar{
+    font-size: 0.9rem;
+    padding: 22px;  
+}
+#priceList{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    flex-basis: 50%;
+}
+#layout{
+    width: 154px !important;
+}
+
+
 @media screen and (max-width: 770px) {
     .rect-top{
         width: 100%;
@@ -189,7 +222,9 @@ background-size: cover;
     .fundMg{
         margin-left: 10px !important;
     }
-
+    #digimar{
+        padding: 10px 56px;
+    }
 }
 
 @media screen and (max-width: 400px) {
