@@ -143,7 +143,7 @@ flex-wrap: wrap;
     flex-wrap: wrap;
 }
 #cc{
-    color: #ffff;
+    color: #000;
     width: 100%;
 }
 #gh p{
@@ -247,11 +247,12 @@ flex-wrap: wrap;
     position: relative;
     top: -8px;
     left: 12px;
-    color: white;
+    color: black;
+    padding-right: 38px;
    
 }
 .bggrad {
-    background: linear-gradient(92.22deg, #088FFF 8.35%, #0587FF 92.86%);
+    /* background: linear-gradient(92.22deg, #088FFF 8.35%, #0587FF 92.86%); */
 }
 .component {
     /* width: 33.3vw; */
